@@ -1,0 +1,13 @@
+(await election.getTotalVoter())
+(await election.getTotalCandidate())
+(await election.getTotalCandidate()).toString
+(await election.getTotalVoter).toString
+(await election.getTotalCandidate()).toString
+await election.getTotalCandidate().toString()
+await election.getTotalCandidate().toString
+election.getTotalCandidate().toString()
+election.getTotalCandidate()
+await election.addCandidate("aryan", "hey");
+await election.addCandidate(header, slogan);
+let election = await Election.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3")
+let Election = await ethers.getContractFactory("Election");
